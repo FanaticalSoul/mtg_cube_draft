@@ -35,12 +35,12 @@
   "name":"mtg_cube_draft",
   "resources":[
     {"id":{"name":"obj_card_pack","path":"objects/obj_card_pack/obj_card_pack.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"map_starting_room","path":"rooms/map_starting_room/map_starting_room.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"map_starting_room","path":"rooms/map_starting_room/map_starting_room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
