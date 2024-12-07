@@ -34,6 +34,7 @@
   },
   "name":"mtg_cube_draft",
   "resources":[
+    {"id":{"name":"obj_card_pack","path":"objects/obj_card_pack/obj_card_pack.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "resourceType":"GMProject",
