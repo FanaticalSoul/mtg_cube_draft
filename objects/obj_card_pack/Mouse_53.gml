@@ -1,9 +1,7 @@
 /// @description Insert description here
 
-show_debug_message("testing");
 
-
-//var _cube = [{name : ""}];
+randomize();
 
 
 var _cube = [[
@@ -163,16 +161,6 @@ var _cube = [[
 	"Kolaghan\'s Command",
 	"Baleful Strix"
 	], [
-	"Sheltering Landscape",
-	"Tranquil Landscape",
-	"Deceptive Landscape",
-	"Contaminated Landscape",
-	"Twisted Landscape",
-	"Shattered Landscape",
-	"Perilous Landscape",
-	"Seething Landscape",
-	"Bountiful Landscape",
-	"Foreboding Landscape",
 	"Simic Guildgate",
 	"Izzet Guildgate",
 	"Gruul Guildgate",
@@ -192,7 +180,17 @@ var _cube = [[
 	"Temple of Deceit",
 	"Temple of Enlightenment",
 	"Temple of Mystery",
-	"Temple of Silence"
+	"Temple of Silence",
+	"Sheltering Landscape",
+	"Tranquil Landscape",
+	"Deceptive Landscape",
+	"Contaminated Landscape",
+	"Twisted Landscape",
+	"Shattered Landscape",
+	"Perilous Landscape",
+	"Seething Landscape",
+	"Bountiful Landscape",
+	"Foreboding Landscape"
 ]];
 
 
@@ -211,12 +209,17 @@ var _u1_m = 6;
 var _u2_m = 2;
 var _r1_m = 2;
 
+var _l1 = 20;
+var _l2 = 10;
+
 var _c1_arr = [];
 var _c2_arr = [];
 var _c3_arr = [];
 var _u1_arr = [];
 var _u2_arr = [];
 var _r1_arr = [];
+var _l1_arr = [];
+var _l2_arr = [];
 
 for (var i = 0; i < array_length(_cube); i++) {
 	for (var j = 0; j < array_length(_cube[i]); j++) {
@@ -238,14 +241,79 @@ for (var i = 0; i < array_length(_cube); i++) {
 			else if (j < _c1_m+_c2_m+_c3_m+_u1_m+_u2_m+_r1_m) array_push(_r1_arr, _card);
 		}
 		else if (i == 7) {
-			// lands
+			if      (j < _l1) array_push(_l1_arr, _card);
+			else if (j < _l1+_l2) array_push(_l2_arr, _card);
 		}
-		show_debug_message(_cube[i][j]);
+		//show_debug_message(_cube[i][j]);
 	}
 }
 
+var _pack_composition = [{
+	count : 4, // packs per player
+	cards : [
+		// lands
+		1, // l1
+		0, // l2
+		// cards
+		3, // c1
+		1, // c2
+		1, // c3
+		1, // u1
+		0, // u2
+		0  // r1
+	]
+},{
+	count : 2, // packs per player
+	cards : [
+		// cards
+		2, // c1
+		1, // c2
+		0, // c3
+		1, // u1
+		1, // u2
+		1, // r1
+		// lands
+		1, // l1
+		0  // l2
+	]
+},{
+	count : 2, // packs per player
+	cards : [
+		// cards
+		2, // c1
+		1, // c2
+		0, // c3
+		1, // u1
+		1, // u2
+		1, // r1
+		// lands
+		0, // l1
+		1  // l2
+	]
+}];
 
+var _cards = [_c1_arr, _c2_arr, _c3_arr, _u1_arr, _u2_arr, _r1_arr, _l1_arr, _l2_arr];
 
+// create a test pack
+var _pack = [];
+var _pack_c1_comp = _pack_composition[0];
+for (var i = 0; i < _pack_c1_comp.count; i++) {
+	_pack = [];
+	for (var j = 0; j < array_length(_cards); j++) {
+		for (var k = 0; k < _pack_c1_comp.cards[j]; k++) {
+			// add shuffle method in // WoL
+			var _selection = array_shuffle(_cards[j]);
+			// add card
+			array_push(_pack, _selection[0]);
+		}
+	}
+	// add shuffle method in // WoL
+	show_debug_message(array_shuffle(_pack));
+}
 
-show_debug_message("c1");
-for (var i = 0; i < array_length(_c1_arr); i++) show_debug_message(_c1_arr);
+/*
+[ "Remand","Path to Exile","Regrowth","Sakura-Tribe Elder","Contaminated Landscape","Cathar Commando","Izzet Guildgate" ]
+[ "Contaminated Landscape","Elvish Mystic","Primeval Titan","Swords to Plowshares","Chandra, Torch of Defiance","Contaminated Landscape","Azorius Guildgate" ]
+[ "Dragon's Rage Channeler","Primeval Titan","Inferno Titan","Thragtusk","Swords to Plowshares","Fact or Fiction","Thalia, Guardian of Thraben" ]
+[ "Thragtusk","Ravenous Chupacabra","Unearth","Abrade","Perilous Landscape","Talrand, Sky Summoner","Regrowth" ]
+*/
