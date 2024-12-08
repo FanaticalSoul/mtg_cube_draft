@@ -8,6 +8,3 @@ function get_file_img (card_name) {
 	_file_img_path = string_lower(_file_img_path);
 	return "spr_"+_file_img_path;
 }
-
-#macro card_x 488
-#macro card_y 680
