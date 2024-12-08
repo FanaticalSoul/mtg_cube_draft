@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Black",
-    "path":"folders/Sprites/Black.yy",
+    "name":"Replaced",
+    "path":"folders/Sprites/Black/Replaced.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

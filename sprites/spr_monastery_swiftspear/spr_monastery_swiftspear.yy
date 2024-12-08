@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_liliana_deaths_majesty",
+  "%Name":"spr_monastery_swiftspear",
   "bboxMode":0,
   "bbox_bottom":679,
   "bbox_left":0,
@@ -12,28 +12,28 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fd71baed-1c90-4f67-ab94-8b180fee3532","name":"fd71baed-1c90-4f67-ab94-8b180fee3532","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"96b8460d-937d-48eb-bd43-44b5b11527c6","name":"96b8460d-937d-48eb-bd43-44b5b11527c6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":680,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"615d19dd-5ab9-4763-bab5-a8283e4354d8","blendMode":0,"displayName":"default","isLocked":false,"name":"615d19dd-5ab9-4763-bab5-a8283e4354d8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"eb04616e-d67a-4e59-a0e4-180f3bca2d9c","blendMode":0,"displayName":"default","isLocked":false,"name":"eb04616e-d67a-4e59-a0e4-180f3bca2d9c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_liliana_deaths_majesty",
+  "name":"spr_monastery_swiftspear",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Replaced",
-    "path":"folders/Sprites/Black/Replaced.yy",
+    "name":"Red",
+    "path":"folders/Sprites/Red.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_liliana_deaths_majesty",
+    "%Name":"spr_monastery_swiftspear",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_liliana_deaths_majesty",
+    "name":"spr_monastery_swiftspear",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fd71baed-1c90-4f67-ab94-8b180fee3532","path":"sprites/spr_liliana_deaths_majesty/spr_liliana_deaths_majesty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"44cd0a17-6d9b-457f-b02f-bbb61b5abab7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"96b8460d-937d-48eb-bd43-44b5b11527c6","path":"sprites/spr_monastery_swiftspear/spr_monastery_swiftspear.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"dbef0c9b-9553-44cd-ba86-01f98e81d1f3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

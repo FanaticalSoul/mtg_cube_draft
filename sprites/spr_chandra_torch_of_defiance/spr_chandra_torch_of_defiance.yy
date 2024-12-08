@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_liliana_deaths_majesty",
+  "%Name":"spr_chandra_torch_of_defiance",
   "bboxMode":0,
   "bbox_bottom":679,
   "bbox_left":0,
@@ -12,28 +12,28 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fd71baed-1c90-4f67-ab94-8b180fee3532","name":"fd71baed-1c90-4f67-ab94-8b180fee3532","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"80c7480c-fac0-4506-98f5-f6e304886f4a","name":"80c7480c-fac0-4506-98f5-f6e304886f4a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":680,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"615d19dd-5ab9-4763-bab5-a8283e4354d8","blendMode":0,"displayName":"default","isLocked":false,"name":"615d19dd-5ab9-4763-bab5-a8283e4354d8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"1026f57b-adb8-40fc-a29e-f970aa73055d","blendMode":0,"displayName":"default","isLocked":false,"name":"1026f57b-adb8-40fc-a29e-f970aa73055d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_liliana_deaths_majesty",
+  "name":"spr_chandra_torch_of_defiance",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Replaced",
-    "path":"folders/Sprites/Black/Replaced.yy",
+    "name":"Red",
+    "path":"folders/Sprites/Red.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_liliana_deaths_majesty",
+    "%Name":"spr_chandra_torch_of_defiance",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_liliana_deaths_majesty",
+    "name":"spr_chandra_torch_of_defiance",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fd71baed-1c90-4f67-ab94-8b180fee3532","path":"sprites/spr_liliana_deaths_majesty/spr_liliana_deaths_majesty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"44cd0a17-6d9b-457f-b02f-bbb61b5abab7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"80c7480c-fac0-4506-98f5-f6e304886f4a","path":"sprites/spr_chandra_torch_of_defiance/spr_chandra_torch_of_defiance.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"594bec63-f581-49dd-ba25-9132fc71e0bd","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
