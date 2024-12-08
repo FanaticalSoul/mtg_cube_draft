@@ -294,21 +294,52 @@ var _pack_composition = [{
 
 var _cards = [_c1_arr, _c2_arr, _c3_arr, _u1_arr, _u2_arr, _r1_arr, _l1_arr, _l2_arr];
 
+
+
+
+
+// delete all card objects // TF
+while (instance_exists(obj_card)) {
+	instance_destroy(obj_card);
+}
+
+
+
+
+
+
+
 // create a test pack
 var _pack = [];
 var _pack_c1_comp = _pack_composition[0];
+
+var _tmp_x = card_x/2;
+var _tmp_y = card_y/2;
 for (var i = 0; i < _pack_c1_comp.count; i++) {
 	_pack = [];
 	for (var j = 0; j < array_length(_cards); j++) {
 		for (var k = 0; k < _pack_c1_comp.cards[j]; k++) {
 			// add shuffle method in // WoL
 			var _selection = array_shuffle(_cards[j]);
+			var _card = _selection[0];
 			// add card
-			array_push(_pack, _selection[0]);
+			array_push(_pack, _card);
 		}
 	}
 	// add shuffle method in // WoL
-	show_debug_message(array_shuffle(_pack));
+	_pack = array_shuffle(_pack);
+	// draw the cards in the pack
+	for (var j = 0; j < array_length(_pack); j++) {
+		var _card = _pack[j];
+		var _sprite = asset_get_index(get_file_img(_card));
+		//show_debug_message(_sprite);
+		//show_debug_message(_sprite);
+		var _obj_card = instance_create_layer(_tmp_x, _tmp_y, "Instances", obj_card);
+		if (sprite_exists(_sprite)) {
+			_obj_card.sprite_index = _sprite;
+		}
+		_tmp_x += card_x;
+	}
 }
 
 /*
