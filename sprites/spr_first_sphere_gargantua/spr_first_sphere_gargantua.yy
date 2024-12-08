@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_the_cruelty_of_gix",
+  "%Name":"spr_first_sphere_gargantua",
   "bboxMode":0,
   "bbox_bottom":679,
   "bbox_left":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"537be224-79d8-4c94-bfc8-7a69cfb4975c","name":"537be224-79d8-4c94-bfc8-7a69cfb4975c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a9206d2d-77e9-41b7-ab7a-ead8abe3d145","name":"a9206d2d-77e9-41b7-ab7a-ead8abe3d145","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":680,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"42fc462e-bfa8-4f4f-b4cc-56d5eea43f9b","blendMode":0,"displayName":"default","isLocked":false,"name":"42fc462e-bfa8-4f4f-b4cc-56d5eea43f9b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c34499a4-c986-423b-975e-6c96c48eb570","blendMode":0,"displayName":"default","isLocked":false,"name":"c34499a4-c986-423b-975e-6c96c48eb570","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_the_cruelty_of_gix",
+  "name":"spr_first_sphere_gargantua",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_the_cruelty_of_gix",
+    "%Name":"spr_first_sphere_gargantua",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_the_cruelty_of_gix",
+    "name":"spr_first_sphere_gargantua",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"537be224-79d8-4c94-bfc8-7a69cfb4975c","path":"sprites/spr_the_cruelty_of_gix/spr_the_cruelty_of_gix.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f73d6fec-d241-4eff-b6e7-57cbafcd33eb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a9206d2d-77e9-41b7-ab7a-ead8abe3d145","path":"sprites/spr_first_sphere_gargantua/spr_first_sphere_gargantua.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ba6360cb-2342-4c16-bfd5-11a491f6a6f6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

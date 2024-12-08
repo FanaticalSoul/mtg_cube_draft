@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_the_cruelty_of_gix",
+  "%Name":"spr_bloodchiefs_thirst",
   "bboxMode":0,
   "bbox_bottom":679,
   "bbox_left":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"537be224-79d8-4c94-bfc8-7a69cfb4975c","name":"537be224-79d8-4c94-bfc8-7a69cfb4975c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"95b8d170-0c76-4de6-bf42-46a1574207c3","name":"95b8d170-0c76-4de6-bf42-46a1574207c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":680,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"42fc462e-bfa8-4f4f-b4cc-56d5eea43f9b","blendMode":0,"displayName":"default","isLocked":false,"name":"42fc462e-bfa8-4f4f-b4cc-56d5eea43f9b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3466d866-9e84-41ca-ada4-535eae42e921","blendMode":0,"displayName":"default","isLocked":false,"name":"3466d866-9e84-41ca-ada4-535eae42e921","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_the_cruelty_of_gix",
+  "name":"spr_bloodchiefs_thirst",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_the_cruelty_of_gix",
+    "%Name":"spr_bloodchiefs_thirst",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_the_cruelty_of_gix",
+    "name":"spr_bloodchiefs_thirst",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"537be224-79d8-4c94-bfc8-7a69cfb4975c","path":"sprites/spr_the_cruelty_of_gix/spr_the_cruelty_of_gix.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f73d6fec-d241-4eff-b6e7-57cbafcd33eb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"95b8d170-0c76-4de6-bf42-46a1574207c3","path":"sprites/spr_bloodchiefs_thirst/spr_bloodchiefs_thirst.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e0c48085-347e-4eeb-8be4-6b8c4076bb0f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
