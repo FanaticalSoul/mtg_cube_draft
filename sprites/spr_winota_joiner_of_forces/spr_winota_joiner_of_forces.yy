@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_huntmaster_of_the_fells",
+  "%Name":"spr_winota_joiner_of_forces",
   "bboxMode":0,
   "bbox_bottom":679,
   "bbox_left":0,
@@ -12,28 +12,28 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"24b02560-3681-40e0-91f5-4262b5effba7","name":"24b02560-3681-40e0-91f5-4262b5effba7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f6e649fc-474c-40e7-b174-69573f10fc05","name":"f6e649fc-474c-40e7-b174-69573f10fc05","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":680,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6a00815e-422b-411a-99b3-2956759fde0d","blendMode":0,"displayName":"default","isLocked":false,"name":"6a00815e-422b-411a-99b3-2956759fde0d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8af44ed0-7177-4bd7-9420-ef854e228a77","blendMode":0,"displayName":"default","isLocked":false,"name":"8af44ed0-7177-4bd7-9420-ef854e228a77","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_huntmaster_of_the_fells",
+  "name":"spr_winota_joiner_of_forces",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Gruul",
-    "path":"folders/Sprites/Multi/Gruul.yy",
+    "name":"Boros",
+    "path":"folders/Sprites/Multi/Boros.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_huntmaster_of_the_fells",
+    "%Name":"spr_winota_joiner_of_forces",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_huntmaster_of_the_fells",
+    "name":"spr_winota_joiner_of_forces",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"24b02560-3681-40e0-91f5-4262b5effba7","path":"sprites/spr_huntmaster_of_the_fells/spr_huntmaster_of_the_fells.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c529c8cb-caeb-4aad-b091-35f3a41095c0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f6e649fc-474c-40e7-b174-69573f10fc05","path":"sprites/spr_winota_joiner_of_forces/spr_winota_joiner_of_forces.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"eb139319-d12f-4acb-b2a1-fb7c1c543909","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

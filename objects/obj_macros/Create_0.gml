@@ -135,7 +135,8 @@ var _wish_cube = [[
 	"Llanowar Elves"
 	], [
 	"Prophet of Kruphix",
-	"Basilisk Collar",
+	"Winota, Joiner of Forces",
+	//"Basilisk Collar",
 	"Lotleth Troll",
 	"Sorin, Lord of Innistrad",
 	"Grim Flayer",
@@ -154,7 +155,8 @@ var _wish_cube = [[
 	"Sprite Dragon",
 	"Terminate",
 	"Izzet Charm",
-	"Nahiri, the Harbinger",
+	//"Nahiri, the Harbinger",
+	"Sword of Fire and Ice",
 	"Ornithopter of Paradise",
 	"Soulherder",
 	"Tidehollow Sculler",

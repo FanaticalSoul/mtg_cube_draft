@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_huntmaster_of_the_fells",
+  "%Name":"spr_sorin_lord_of_innistrad",
   "bboxMode":0,
   "bbox_bottom":679,
   "bbox_left":0,
@@ -12,28 +12,28 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"24b02560-3681-40e0-91f5-4262b5effba7","name":"24b02560-3681-40e0-91f5-4262b5effba7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"5218f7a7-9910-483c-947a-b679a420c05b","name":"5218f7a7-9910-483c-947a-b679a420c05b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":680,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6a00815e-422b-411a-99b3-2956759fde0d","blendMode":0,"displayName":"default","isLocked":false,"name":"6a00815e-422b-411a-99b3-2956759fde0d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"537b3b02-9ee4-4845-908b-30768c794e6c","blendMode":0,"displayName":"default","isLocked":false,"name":"537b3b02-9ee4-4845-908b-30768c794e6c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_huntmaster_of_the_fells",
+  "name":"spr_sorin_lord_of_innistrad",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Gruul",
-    "path":"folders/Sprites/Multi/Gruul.yy",
+    "name":"Orzhov",
+    "path":"folders/Sprites/Multi/Orzhov.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_huntmaster_of_the_fells",
+    "%Name":"spr_sorin_lord_of_innistrad",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_huntmaster_of_the_fells",
+    "name":"spr_sorin_lord_of_innistrad",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"24b02560-3681-40e0-91f5-4262b5effba7","path":"sprites/spr_huntmaster_of_the_fells/spr_huntmaster_of_the_fells.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c529c8cb-caeb-4aad-b091-35f3a41095c0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5218f7a7-9910-483c-947a-b679a420c05b","path":"sprites/spr_sorin_lord_of_innistrad/spr_sorin_lord_of_innistrad.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"58793247-5fce-4727-b181-abadfe71983d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
