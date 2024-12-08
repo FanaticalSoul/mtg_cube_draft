@@ -3,7 +3,7 @@
 
 randomize();
 
-
+sout(random_get_seed());
 
 var _c1 = 9;
 var _c2 = 4;
@@ -85,7 +85,11 @@ var _pack_composition = [{
 
 var _cards = [_c1_arr, _c2_arr, _c3_arr, _u1_arr, _u2_arr, _r1_arr, _l1_arr, _l2_arr, _l3_arr];
 
-
+/*
+for (var i = 0; i < array_length(_cards); i++) {
+	sout(_cards[i]);
+}
+*/
 
 
 
@@ -117,78 +121,52 @@ var _tmp_y = card_y/2;
 //for (var i = 0; i < _pack_c1_comp.count; i++) {
 _pack = [];
 for (var j = 0; j < array_length(_pack_c1_comp.cards); j++) {
-	if (j == 0) { // get common
-		var _d14 = int64(random_range(1,15));
-		if (_d14>14) _d14 = 14;
-		//10/14
-		if      (_d14 <= 10) array_push(_pack, array_shuffle(_cards[0])[0]);
-		//3/14
-		else if (_d14 <= 13) array_push(_pack, array_shuffle(_cards[1])[0]);
-		//1/14
-		else if (_d14 == 14) array_push(_pack, array_shuffle(_cards[2])[0]);
-	}
-	
-	if (j == 1) { // get uncommon
-		var _d13 = int64(random_range(1,14));
-		if (_d13>13) _d13 = 13;
-		//10/13
-		if      (_d13 <= 10) array_push(_pack, array_shuffle(_cards[3])[0]);
-		// 3/13
-		else if (_d13 <= 13) array_push(_pack, array_shuffle(_cards[4])[0]);
-	}
-	
-	if (j == 2) { // get rare
-		array_push(_pack, array_shuffle(_cards[5])[0]);
-	}
-	
-	if (j == 3) { // get land
-		var _d14 = int64(random_range(1,15));
-		if (_d14>14) _d14 = 14;
-		// 10/14 // shockland
-		if      (_d14 <= 10) array_push(_pack, array_shuffle(_cards[6])[0]);
-		//  3/14 // fetchland
-		else if (_d14 <= 13) array_push(_pack, array_shuffle(_cards[7])[0]);
-		//  1/14 // triome
-		else if (_d14 == 14) array_push(_pack, array_shuffle(_cards[8])[0]);
-	}
-	
-	
-	
-
-	//show_debug_message("j "+string(j)+" k "+string(_pack_c1_comp.cards[j]));
 	for (var k = 0; k < _pack_c1_comp.cards[j]; k++) {
-		// add shuffle method in // WoL
-		var _selection = array_shuffle(_cards[j]);
-		var _card = _selection[0];
-		if (j == 0) sout(["c1", _card]);
-		if (j == 1) sout(["c2", _card]);
-		if (j == 2) sout(["c3", _card]);
-		if (j == 3) sout(["u1", _card]);
-		if (j == 4) sout(["u2", _card]);
-		if (j == 5) sout(["r1", _card]);
-		if (j == 6) sout(["l1", _card]);
-		if (j == 7) sout(["l2", _card]);
-		if (j == 8) sout(["l3", _card]);
-		// add card
-		array_push(_pack, _card);
-	}
+		if (j == 0) { // get common
+			var _d14 = int64(random_range(1,15));
+			if (_d14>14) _d14 = 14;
+			//10/14
+			if      (_d14 <= 10) array_push(_pack, array_shuffle(_cards[0])[0]);
+			//3/14
+			else if (_d14 <= 13) array_push(_pack, array_shuffle(_cards[1])[0]);
+			//1/14
+			else if (_d14 == 14) array_push(_pack, array_shuffle(_cards[2])[0]);
+		}
 	
+		if (j == 1) { // get uncommon
+			var _d13 = int64(random_range(1,14));
+			if (_d13>13) _d13 = 13;
+			//10/13
+			if      (_d13 <= 10) array_push(_pack, array_shuffle(_cards[3])[0]);
+			// 3/13
+			else if (_d13 <= 13) array_push(_pack, array_shuffle(_cards[4])[0]);
+		}
+	
+		if (j == 2) { // get rare
+			array_push(_pack, array_shuffle(_cards[5])[0]);
+		}
+	
+		if (j == 3) { // get land
+			var _d14 = int64(random_range(1,15));
+			if (_d14>14) _d14 = 14;
+			// 10/14 // shockland
+			if      (_d14 <= 10) array_push(_pack, array_shuffle(_cards[6])[0]);
+			//  3/14 // fetchland
+			else if (_d14 <= 13) array_push(_pack, array_shuffle(_cards[7])[0]);
+			//  1/14 // triome
+			else if (_d14 == 14) array_push(_pack, array_shuffle(_cards[8])[0]);
+		}
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /*
+for (var i = 0; i < array_length(_pack); i++) {
+	sout(_pack[i]);
+}
+*/
+
 // add shuffle method in // WoL
 _pack = array_shuffle(_pack);
+sout(_pack);
 // draw the cards in the pack
 for (var j = 0; j < array_length(_pack); j++) {
 	var _card = _pack[j];
@@ -201,12 +179,3 @@ for (var j = 0; j < array_length(_pack); j++) {
 	}
 	_tmp_x += card_x;
 }
-*/
-//}
-
-/*
-[ "Remand","Path to Exile","Regrowth","Sakura-Tribe Elder","Contaminated Landscape","Cathar Commando","Izzet Guildgate" ]
-[ "Contaminated Landscape","Elvish Mystic","Primeval Titan","Swords to Plowshares","Chandra, Torch of Defiance","Contaminated Landscape","Azorius Guildgate" ]
-[ "Dragon's Rage Channeler","Primeval Titan","Inferno Titan","Thragtusk","Swords to Plowshares","Fact or Fiction","Thalia, Guardian of Thraben" ]
-[ "Thragtusk","Ravenous Chupacabra","Unearth","Abrade","Perilous Landscape","Talrand, Sky Summoner","Regrowth" ]
-*/
