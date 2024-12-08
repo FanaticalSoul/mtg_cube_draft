@@ -60,6 +60,7 @@
     {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},},
     {"id":{"name":"obj_macros","path":"objects/obj_macros/obj_macros.yy",},},
     {"id":{"name":"map_starting_room","path":"rooms/map_starting_room/map_starting_room.yy",},},
+    {"id":{"name":"scr_misc","path":"scripts/scr_misc/scr_misc.yy",},},
     {"id":{"name":"spr_abrade","path":"sprites/spr_abrade/spr_abrade.yy",},},
     {"id":{"name":"spr_abrupt_decay","path":"sprites/spr_abrupt_decay/spr_abrupt_decay.yy",},},
     {"id":{"name":"spr_acidic_slime","path":"sprites/spr_acidic_slime/spr_acidic_slime.yy",},},
