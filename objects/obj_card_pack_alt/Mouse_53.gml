@@ -163,7 +163,7 @@ for (var i = 0; i < array_length(_pack); i++) {
 	sout(_pack[i]);
 }
 */
-
+// Elspeth, Knight-Errant
 // add shuffle method in // WoL
 _pack = array_shuffle(_pack);
 sout(_pack);

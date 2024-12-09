@@ -64,6 +64,7 @@
     {"id":{"name":"obj_card_pack","path":"objects/obj_card_pack/obj_card_pack.yy",},},
     {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},},
     {"id":{"name":"obj_macros","path":"objects/obj_macros/obj_macros.yy",},},
+    {"id":{"name":"obj_multiplayer","path":"objects/obj_multiplayer/obj_multiplayer.yy",},},
     {"id":{"name":"map_starting_room","path":"rooms/map_starting_room/map_starting_room.yy",},},
     {"id":{"name":"scr_misc","path":"scripts/scr_misc/scr_misc.yy",},},
     {"id":{"name":"spr_abrade","path":"sprites/spr_abrade/spr_abrade.yy",},},
