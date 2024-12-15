@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description set macros and global varibles
 
 #macro card_x 488
 #macro card_y 680
