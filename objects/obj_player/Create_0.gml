@@ -6,10 +6,12 @@ switch (player_id) {
 	case 0:
 		x = card_x/2;
 		y = card_y/2;
+		sprite_index = spr_baleful_strix;
 		break;
 	case 1:
 		x = card_x/2;
 		y = card_y/2+card_y;
+		sprite_index = spr_tidehollow_sculler;
 		break;
 }
 

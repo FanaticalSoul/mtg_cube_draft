@@ -1,6 +1,6 @@
 /// @description Insert description here
 
-sout(["player local",player_local]);
+//sout(["player local",player_local]);
 
 var _input = rollback_get_input();
 
