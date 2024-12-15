@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"obj_card",
   "eventList":[],
-  "managed":true,
+  "managed":false,
   "name":"obj_card",
   "overriddenProperties":[],
   "parent":{

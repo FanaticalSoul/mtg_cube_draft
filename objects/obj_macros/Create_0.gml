@@ -397,3 +397,93 @@ var _current_cube = [[
 ]];
 
 global.cube = _wish_cube;
+
+
+#macro sc1  9 // standard common 1
+#macro sc2  4 // standard common 2
+#macro sc3  2 // standard common 3
+#macro su1  4 // standard uncommon 1
+#macro su2  2 // standard uncommon 2
+#macro sr1  2 // standard rare
+#macro mc1 15 // multicolored or colorless common 1
+#macro mc2  8 // multicolored or colorless common 2
+#macro mc3  2 // multicolored or colorless common 3
+#macro mu1  6 // multicolored or colorless uncommon 1
+#macro mu2  2 // multicolored or colorless uncommon 2
+#macro mr1  2 // multicolored or colorless rare
+#macro lc1 10 // land common 1
+#macro lc2 10 // land common 2
+#macro lc3 10 // land common 3
+
+
+global.pack_comp_1st = [{
+	count : 4, // packs per player
+	cards : [
+		// cards
+		3, // c1
+		1, // c2
+		1, // c3
+		1, // u1
+		0, // u2
+		0, // r1
+		// lands
+		1, // l1
+		0, // l2
+		0  // l3
+	]
+},{
+	count : 2, // packs per player
+	cards : [
+		// cards
+		2, // c1
+		1, // c2
+		0, // c3
+		1, // u1
+		1, // u2
+		1, // r1
+		// lands
+		0, // l1
+		1, // l2
+		0  // l3
+	]
+},{
+	count : 2, // packs per player
+	cards : [
+		// cards
+		2, // c1
+		1, // c2
+		0, // c3
+		1, // u1
+		1, // u2
+		1, // r1
+		// lands
+		0, // l1
+		0, // l2
+		1  // l3
+	]
+}];
+
+global.pack_comp_alt = [{
+	count : 4, // packs per player
+	cards : [
+		// cards
+		5, // cx
+		1, // ux
+		0, // rx
+		// lands
+		1  // lx
+	]
+},{
+	count : 2, // packs per player
+	cards : [
+		// cards
+		3, // cx
+		2, // ux
+		1, // rx
+		// lands
+		1  // lx
+	]
+}];
+
+
+
