@@ -1,9 +1,9 @@
 /// @description Insert description here
 
 
-randomize();
-
-sout(random_get_seed());
+/*
+random_set_seed(randomize()); // doesn't work in GX.games
+//sout(random_get_seed());
 
 var _c1 = 9;
 var _c2 = 4;
@@ -85,11 +85,6 @@ var _pack_composition = [{
 
 var _cards = [_c1_arr, _c2_arr, _c3_arr, _u1_arr, _u2_arr, _r1_arr, _l1_arr, _l2_arr, _l3_arr];
 
-/*
-for (var i = 0; i < array_length(_cards); i++) {
-	sout(_cards[i]);
-}
-*/
 
 
 
@@ -97,19 +92,6 @@ for (var i = 0; i < array_length(_cards); i++) {
 while (instance_exists(obj_card)) {
 	instance_destroy(obj_card);
 }
-
-
-
-
-/*
-j 0 k 1
-j 1 k 0
-j 2 k 3
-j 3 k 1
-j 4 k 1
-j 5 k 1
-j 6 k 0
-*/
 
 
 // create a test pack
@@ -127,9 +109,9 @@ for (var j = 0; j < array_length(_pack_c1_comp.cards); j++) {
 			if (_d14>14) _d14 = 14;
 			//10/14
 			if      (_d14 <= 10) array_push(_pack, array_shuffle(_cards[0])[0]);
-			//3/14
+			// 3/14
 			else if (_d14 <= 13) array_push(_pack, array_shuffle(_cards[1])[0]);
-			//1/14
+			// 1/14
 			else if (_d14 == 14) array_push(_pack, array_shuffle(_cards[2])[0]);
 		}
 	
@@ -158,12 +140,6 @@ for (var j = 0; j < array_length(_pack_c1_comp.cards); j++) {
 		}
 	}
 }
-/*
-for (var i = 0; i < array_length(_pack); i++) {
-	sout(_pack[i]);
-}
-*/
-// Elspeth, Knight-Errant
 // add shuffle method in // WoL
 _pack = array_shuffle(_pack);
 sout(_pack);
@@ -172,10 +148,10 @@ for (var j = 0; j < array_length(_pack); j++) {
 	var _card = _pack[j];
 	var _sprite = asset_get_index(get_file_img(_card));
 	//show_debug_message(_sprite);
-	//show_debug_message(_sprite);
 	var _obj_card = instance_create_layer(_tmp_x, _tmp_y, "Instances", obj_card);
 	if (sprite_exists(_sprite)) {
 		_obj_card.sprite_index = _sprite;
 	}
 	_tmp_x += card_x;
 }
+*/
