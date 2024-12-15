@@ -10,6 +10,7 @@ function get_card_pack (pack_comp = global.pack_comp_1st) {
 	// add custom shuffle method in // WoL
 	_pack = array_shuffle(_pack);
 	// output pack // TF
+	sout("[ - pack - ]");
 	sout(_pack);
 	// return pack
 	return _pack;
