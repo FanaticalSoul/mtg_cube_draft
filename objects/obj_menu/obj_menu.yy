@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_multiplayer",
+  "%Name":"obj_menu",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_multiplayer",
+  "name":"obj_menu",
   "overriddenProperties":[],
   "parent":{
     "name":"Multiplayer",
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_mind_stone",
-    "path":"sprites/spr_mind_stone/spr_mind_stone.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
