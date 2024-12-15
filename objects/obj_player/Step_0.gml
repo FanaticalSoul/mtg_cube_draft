@@ -1,13 +1,16 @@
 /// @description Insert description here
 
-//sout(["player local",player_local]);
-
 var _input = rollback_get_input();
 
 if (_input.left) { // click left
-	x -= 10;
+	//x -= 10;
+	
+	// open pack // CiD
+	
+	current_pack = get_card_pack(global.pack_comp_alt);
 }
-if (_input.right) {
-	x += 10;
+else if (_input.right) {
+	//x += 10;
+	
+	// select card // WoL
 }
-// etc.

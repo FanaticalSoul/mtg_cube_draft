@@ -69,3 +69,50 @@ function get_cards () {
 	
 	return [_c1_arr, _c2_arr, _c3_arr, _u1_arr, _u2_arr, _r1_arr, _l1_arr, _l2_arr];
 }
+
+
+
+function get_pack (pack_comp, cube_cards = get_cards()) {
+	var _pack = [];
+	for (var i = 0; i < array_length(pack_comp.cards); i++) {
+		for (var j = 0; j < pack_comp.cards[i]; j++) {
+			// add custom shuffle method in // WoL
+			var _selection = array_shuffle(cube_cards[i]);
+			var _card = _selection[0];
+			// add card
+			array_push(_pack, _card);
+		}
+	}
+	return _pack;
+}
+
+
+
+function get_pack_alt (pack_comp, cube_cards = get_cards()) {
+	var _pack = [];
+	for (var i = 0; i < array_length(pack_comp.cards); i++) {
+		for (var j = 0; j < pack_comp.cards[i]; j++) {
+			var _d13 = int64(random_range(1,14));
+			if (_d13>13) _d13 = 13;
+			var _d14 = int64(random_range(1,15));
+			if (_d14>14) _d14 = 14;
+			// add multiple custom shuffle methods in // WoL
+			if (i == 0) { // get common
+				if      (_d14 <= 10) array_push(_pack, array_shuffle(cube_cards[0])[0]); // 5/ 7
+				else if (_d14 <= 13) array_push(_pack, array_shuffle(cube_cards[1])[0]); // 3/14
+				else if (_d14 == 14) array_push(_pack, array_shuffle(cube_cards[2])[0]); // 1/14
+			}
+			else if (i == 1) { // get uncommon
+				if      (_d13 <= 10) array_push(_pack, array_shuffle(cube_cards[3])[0]); //10/13
+				else if (_d13 <= 13) array_push(_pack, array_shuffle(cube_cards[4])[0]); // 3/13
+			}
+			else if (i == 2) array_push(_pack, array_shuffle(cube_cards[5])[0]); // get rare
+			else if (i == 3) { // get land
+				if      (_d14 <= 10) array_push(_pack, array_shuffle(cube_cards[6])[0]); // 5/ 7 // shockland
+				else if (_d14 <= 13) array_push(_pack, array_shuffle(cube_cards[7])[0]); // 3/14 // fetchland
+				else if (_d14 == 14) array_push(_pack, array_shuffle(cube_cards[8])[0]); // 1/14 // triome
+			}
+		}
+	}
+	return _pack;
+}
