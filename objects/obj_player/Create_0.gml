@@ -1,16 +1,13 @@
 /// @description Insert description here
 
-sout(["player",player_id,"created"]);
-
+x = card_x/2;
+y = card_y/2;
 switch (player_id) {
 	case 0:
-		x = card_x/2;
-		y = card_y/2;
 		sprite_index = spr_baleful_strix;
 		break;
 	case 1:
-		x = card_x/2;
-		y = card_y/2+card_y;
+		y += card_y;
 		sprite_index = spr_tidehollow_sculler;
 		break;
 }
@@ -37,7 +34,7 @@ else if (player_id == 1) {
 if (player_id == 0) instance_create_depth(0, 0, depth, obj_player_1);
 //if (player_id == 1) instance_create_depth(card_x, card_y*3, depth, obj_player_2);
 */
-player_input = rollback_get_input();
+//player_input = rollback_get_input();
 
 /*
 y = room_height / 2;

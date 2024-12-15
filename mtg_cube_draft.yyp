@@ -62,6 +62,7 @@
   },
   "name":"mtg_cube_draft",
   "resources":[
+    {"id":{"name":"txt_misc","path":"notes/txt_misc/txt_misc.yy",},},
     {"id":{"name":"txt_sources","path":"notes/txt_sources/txt_sources.yy",},},
     {"id":{"name":"obj_card_pack_alt","path":"objects/obj_card_pack_alt/obj_card_pack_alt.yy",},},
     {"id":{"name":"obj_card_pack","path":"objects/obj_card_pack/obj_card_pack.yy",},},

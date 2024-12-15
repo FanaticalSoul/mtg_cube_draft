@@ -1,1 +1,2 @@
 https://gamemaker.io/en/tutorials/easy-multiplayer-tutorial
+https://gamemaker.io/en/tutorials/add-multiplayer-to-gamemaker

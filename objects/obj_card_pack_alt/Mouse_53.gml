@@ -1,10 +1,5 @@
 /// @description Insert description here
 
-
-/*
-random_set_seed(randomize()); // doesn't work in GX.games
-//sout(random_get_seed());
-
 var _c1 = 9;
 var _c2 = 4;
 var _c3 = 2;
@@ -141,6 +136,7 @@ for (var j = 0; j < array_length(_pack_c1_comp.cards); j++) {
 	}
 }
 // add shuffle method in // WoL
+// Spell Queller | Scavenging Ooze | Crystal Barricade | Cloudblazer | Doom Whisperer | Windswept Heath | Chthonian Nightmare
 _pack = array_shuffle(_pack);
 sout(_pack);
 // draw the cards in the pack
@@ -154,4 +150,4 @@ for (var j = 0; j < array_length(_pack); j++) {
 	}
 	_tmp_x += card_x;
 }
-*/
+/**/
